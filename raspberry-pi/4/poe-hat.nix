@@ -54,23 +54,23 @@ in {
                 target = <&thermal_trips>;
                 __overlay__ {
                   trip0: trip0 {
-                    temperature = <40000>;
-                    hysteresis = <2000>;
+                    temperature = <50000>;
+                    hysteresis = <1000>;
                     type = "active";
                   };
                   trip1: trip1 {
-                    temperature = <45000>;
-                    hysteresis = <2000>;
+                    temperature = <62000>;
+                    hysteresis = <5000>;
                     type = "active";
                   };
                   trip2: trip2 {
-                    temperature = <50000>;
-                    hysteresis = <2000>;
+                    temperature = <70000>;
+                    hysteresis = <5000>;
                     type = "active";
                   };
                   trip3: trip3 {
-                    temperature = <55000>;
-                    hysteresis = <5000>;
+                    temperature = <82000>;
+                    hysteresis = <2000>;
                     type = "active";
                   };
                 };
